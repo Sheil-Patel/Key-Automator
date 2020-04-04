@@ -44,3 +44,6 @@ From within the virtual environment, demonstrate your ability to run the Python 
 python app/key-automator.py
 ```
 
+## Stopping Python Scripts
+
+After you run the program, you will see python scripts running in the task manager. After you are done, be sure to deactivate those scripts. 
