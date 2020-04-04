@@ -35,48 +35,12 @@ pip install -r requirements.txt
 
 > NOTE: if this command throws an error like "Could not open requirements file: [Errno 2] No such file or directory", make sure you are running it from the repository's root directory, where the requirements.txt file exists (see the initial `cd` step above)
 
-### API key setup
-
-## AlphaVantage API
-Your program will need an API Key to issue requests to the AlphaVantage API
-
-Create a .env file located in cd ~/Desktop/robo-advisor and insert your own API key like the example below
-
-```sh
-ALPHAVANTAGE_API_KEY="abc123"
-```
-## Twilio SMS API
-Additionally your program will need to have Twilio API keys put into the .env files. Examples of that code can be seen below
-
-```sh
-TWILIO_ACCOUNT_SID = "abc123"
-TWILIO_AUTH_TOKEN = "abc123"
-```
-Additionally you will need to put in Sender and Receiver phone numbers
-```sh
-SENDER_SMS = "1112223333"
-RECIPIENT_SMS = "1112223333"
-```
 
 ## Running the program
 
 From within the virtual environment, demonstrate your ability to run the Python script from the command-line:
 
 ```sh
-python app/robo_advisor.py
+python app/key-automator.py
 ```
-## Testing Capabilities
-
-### Testing with Pytest Package
-After installing your package dependencies through requirments.txt, you are able to use the "pytest" package. By entering the command below, you are able to run the tests inputted in the file located at Test/my_test.py
-
-```sh
-pytest
-```
-
-### Automatic Testing with Travis-CI and Code Climate
-
-Travis-CI: Code is compatible with Travis-CI to run tests to see if fundamental program functions are working properly.
-
-Code Climate: Code can be used with Code Climate to check coding syntax and style
 
