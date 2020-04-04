@@ -41,7 +41,7 @@ pip install -r requirements.txt
 From within the virtual environment, demonstrate your ability to run the Python script from the command-line:
 
 ```sh
-python app/key-automator.py
+python key-automator.py
 ```
 
 ## Stopping Python Scripts
